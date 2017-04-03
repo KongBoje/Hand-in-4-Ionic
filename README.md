@@ -93,7 +93,8 @@ When running on an emulater or a device you type "ionic emulate android" for the
 This brings you over to the index.html front-end view.
 
 #### data setup
-When you run it first time it's empty, so to know that a db is connected and that the backend communicates, we can insert some test data like this: [test Data](https://github.com/KongBoje/Hand-in-4-Ionic/blob/master/BackendIonic/utils/dataSetup.js)
+When you run it first time it's empty, so to know that a db is connected and that the backend communicates, we can insert some test data like this: [Test Data](https://github.com/KongBoje/Hand-in-4-Ionic/blob/master/BackendIonic/utils/dataSetup.js)
+This will show the test data on the started webpage.
 
 >## Explain, with focus on location, technologies related to locations used on:
 
