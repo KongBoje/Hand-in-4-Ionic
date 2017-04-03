@@ -97,7 +97,8 @@ When you run it first time it's empty, so to know that a db is connected and tha
 This will show the test data on the started webpage.
 
 >## Explain, with focus on location, technologies related to locations used on:
-
+This one is skipped (but will probably try making it in the future!)
 ### Your app (client side)
-
+TBD
 ### Your backend
+TBD
