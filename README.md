@@ -73,7 +73,7 @@ Ionic uses AngularJS and Cordova to create Hybrid Apps, for the styling of this 
     </ion-content>
   </ion-side-menu>
 ```
-
+For the full example on the HTML code look here: ![HTMLIon](https://github.com/KongBoje/Hand-in-4-Ionic/blob/master/IonicApp/todo/www/index.html)
 >## Explain using an example how your Hybrid Application communicates with a backend 
 
 >## Explain, with focus on location, technologies related to locations used on:
