@@ -13,27 +13,37 @@ Apache Cordova enables software programmers to build applications for mobile dev
 >## Explain the Pros & Cons of using Hybrid Mobile App Development compared to Native App Development
 
 Pros:
-- Cross platform
-- Faster development
-- Better maintainability
+- Much cheaper than Native apps which makes it good for startups.
+- It can be used cross platformsn like IOS and android.
+- It is faster to develop and make a demo of the app.
+- It has better maintainability
+- Works great for simple data-driven applications.
 
 Cons:
-- Performance could suffer
+- Not as fast or smooth as Native apps.
+- Performance isn't as good as Native, so it could suffer more.
 - Possibly miss out on extra native apis that are not supported by Cordova
+- Doesn't utilize native features (like the camera) as good as native applications.
+- Angular.js has a steep learning curve.
+- Does not support newly arrived features as quickly as native.
 
 >## Explain about the "building blocks" involved in an Ionic Hybrid Application
 
-- AngularJS for presentation layer.
-- Cordova for communication with phone hardware.
+- AngularJS framework on javascript for front-end presentation layer.
+- Cordova/Ionic for communication with phone hardware and a test server (Ionic serve).
 - HTML5 & Sass for styling and display of components.
-- ADB to communicate with phone and enables debugging.
-- Node.js to bring it all together.
+- ADB(Android Debug Bridge) to communicate with phone and enables debugging.
+It’s a “bridge” for developers to work out bugs in their Android applications. This is done by connecting a device that runs the software through a PC, and feeding it terminal commands. ADB lets you modify your device (or device’s software) via a PC command line.
+- Node.js to bring all the code together using middleware, ionic, express and so on.
+
+So basically Ionic apps are made of high-level building blocks called components. Components allow you to quickly construct an interface for your app. Ionic comes with a number of components, including modals, popups, and cards. Although components are primarily Angular directives with HTML and CSS, some components also include more advanced JavaScript functionality.
 
 >## Explain and demonstrate ways to debug Hybrid Mobile Applications Running on a real device
 
 With Ionic you can debug your app through your browser using the sockets and ports that the phone uses to communicate with the browser, this enbables you to see the console and debug live.
 
-If you use: "ionic run android".
+If you use: "ionic run android" or if you have an emulater use: "ionic emulate android" to start up an emulater of an android phone.
+This will still be able to track the amulater phone on the inspect webpage.
 
 Open Chrome and navigate to: "chrome://inspect/#devices"
 
@@ -41,9 +51,11 @@ Open Chrome and navigate to: "chrome://inspect/#devices"
 
 Cordova or PhoneGap act as a common interface that can be used to expose native functionality.
 
+Accessing native phone features like location and the calendar is possible through the use of Cordova plugins.
+
 >## Explain, using an example you have implemented, the "fundamentals" of an Ionic application.
 
-Ionic uses AngularJS and Cordova to create Hybrid Apps, for the styling of this app Ionic uses CSS and JavaScript like BootStrap does. When creating the HTML for a the app, Ionic specific directives is used like this.
+Ionic uses AngularJS and Cordova to create Hybrid Apps, for the styling of this app Ionic uses CSS and JavaScript like BootStrap does. When creating the HTML for the app, Ionic specific directives is used like this.
 
 ```
   <ion-side-menu side="left">
