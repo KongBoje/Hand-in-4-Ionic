@@ -53,6 +53,14 @@ Cordova or PhoneGap act as a common interface that can be used to expose native 
 
 Accessing native phone features like location and the calendar is possible through the use of Cordova plugins.
 
+The easiest way to use phone-features is to use ngCordova
+
+It provides simple AngularJS wrappers for the most popular Cordova and PhoneGap plugins available, where you can take a picture, scan a barcode, upload a file, turn on your flashlight, get your current location, and much more with just a few lines of code.
+
+You get ngCordova like this: [ngCordova](http://ngcordova.com/docs/install/). Install it through bower (Web sites are made of lots of things — frameworks, libraries, assets, and utilities. Bower manages all these things for you).
+
+Bower can manage components that contain HTML, CSS, JavaScript, fonts or even image files.
+
 >## Explain, using an example you have implemented, the "fundamentals" of an Ionic application.
 
 Ionic uses AngularJS and Cordova to create Hybrid Apps, for the styling of this app Ionic uses CSS and JavaScript like BootStrap does. When creating the HTML for the app, Ionic specific directives is used like this.
