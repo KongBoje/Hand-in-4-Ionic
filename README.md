@@ -106,7 +106,7 @@ I can show it client side with two options:
 
 first option is when you start it with "npm start": [index.html](https://github.com/KongBoje/Hand-in-4-Ionic/blob/master/BackendIonic/public/index.html) = here angular is used.
 
-second option is when you start it inside the ionic folder with "ionic serve" or "ionic emulate android/ios": [ionic index.html](https://github.com/KongBoje/Hand-in-4-Ionic/blob/master/BackendIonic/public/ionic/www/index.html) = here we use Cordovas/ionics built in directories to get for instance "<ion-side-menu-content>"
+second option is when you start it inside the ionic folder with "ionic serve" or "ionic emulate android/ios": [ionic index.html](https://github.com/KongBoje/Hand-in-4-Ionic/blob/master/BackendIonic/public/ionic/www/index.html) = here we use Cordovas/ionics built in directories to get for instance "<"ion-side-menu-content">"
 
 ### Your backend
 Connector til databasen med denne fil: [www](https://github.com/KongBoje/Hand-in-4-Ionic/blob/master/BackendIonic/bin/www)
