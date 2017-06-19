@@ -63,7 +63,7 @@ Bower can manage components that contain HTML, CSS, JavaScript, fonts or even im
 
 >## Explain, using an example you have implemented, the "fundamentals" of an Ionic application.
 
-Ionic uses AngularJS and Cordova to create Hybrid Apps, for the styling of this app Ionic uses CSS and JavaScript like BootStrap does. When creating the HTML for the app, Ionic specific directives is used like this.
+Ionic uses AngularJS and Cordova(a container for running a web application written in HTML, CSS and JS) to create Hybrid Apps, for the styling of this app Ionic uses CSS and JavaScript like BootStrap does. When creating the HTML for the app, Ionic specific directives is used like this.
 
 ```
   <ion-side-menu side="left">
